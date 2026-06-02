@@ -1,42 +1,220 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="tg">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Омӯзиши забони русӣ</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
-    <header>
-      <h1>Омӯзиши забони русӣ</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">Дар бораи мо</a></li>
-          <li><a href="#lessons">Дарсҳо</a></li>
-          <li><a href="#contact">Тамос</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container nav-box">
+        <div class="logo">
+          <span>RU</span>
+          <p>Омӯзиши забони русӣ</p>
+        </div>
+
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="#about">Дар бораи мо</a></li>
+            <li><a href="#lessons">Дарсҳо</a></li>
+            <li><a href="#levels">Сатҳҳо</a></li>
+            <li><a href="#contact">Тамос</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
     <main>
-      <section id="about">
-        <h2>Дар бораи мо</h2>
-        <p>Ин сайт барои омӯзиши забони русӣ сохта шудааст.</p>
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <span class="badge">Забони русиро осон омӯзед</span>
+            <h1>Омӯзиши забони русӣ бо усули содда, фаҳмо ва амалӣ</h1>
+            <p>
+              Ин платформа барои донишҷӯён, хонандагон ва ҳар касе сохта шудааст,
+              ки мехоҳад забони русиро аз сифр то сатҳи хуб омӯзад.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#lessons" class="btn primary-btn">Оғози омӯзиш</a>
+              <a href="#about" class="btn secondary-btn">Маълумоти бештар</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <h3>Имрӯз омӯзед</h3>
+            <p>10 калимаи нав</p>
+            <p>1 қоидаи грамматикӣ</p>
+            <p>1 машқи амалӣ</p>
+            <div class="progress">
+              <span></span>
+            </div>
+            <small>Пешрафти рӯзона: 70%</small>
+          </div>
+        </div>
       </section>
-      <section id="lessons">
-        <h2>Дарсҳо</h2>
-        <p>Дарсҳои интерактивӣ бо видео ва машқҳои амалӣ.</p>
+
+      <section class="stats">
+        <div class="container stats-grid">
+          <div class="stat-card">
+            <h2>50+</h2>
+            <p>Дарси омӯзишӣ</p>
+          </div>
+          <div class="stat-card">
+            <h2>200+</h2>
+            <p>Калимаҳои муҳим</p>
+          </div>
+          <div class="stat-card">
+            <h2>30+</h2>
+            <p>Машқи амалӣ</p>
+          </div>
+          <div class="stat-card">
+            <h2>3</h2>
+            <p>Сатҳи омӯзиш</p>
+          </div>
+        </div>
       </section>
-      <section id="contact">
-        <h2>Тамос</h2>
-        <p>
-          Барои тамос бо мо:
-          <a href="mailto:info@example.com">info@example.com</a>
-        </p>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-title">
+            <span>Дар бораи платформа</span>
+            <h2>Чаро ин сайт муфид аст?</h2>
+            <p>
+              Сайт бо мақсади омӯзиши босифати забони русӣ сохта шудааст.
+              Дар он дарсҳо, калимаҳо, грамматика ва машқҳо ба шакли фаҳмо пешниҳод мешаванд.
+            </p>
+          </div>
+
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="icon">📘</div>
+              <h3>Дарсҳои фаҳмо</h3>
+              <p>
+                Ҳар мавзӯъ бо забони содда шарҳ дода мешавад, то омӯзанда зуд дарк кунад.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="icon">🎧</div>
+              <h3>Гӯш кардан ва талаффуз</h3>
+              <p>
+                Барои беҳтар кардани талаффуз, машқҳои шунавоӣ ва гуфторӣ илова карда мешаванд.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="icon">✍️</div>
+              <h3>Машқҳои амалӣ</h3>
+              <p>
+                Пас аз ҳар дарс саволҳо ва машқҳо барои мустаҳкам кардани дониш дода мешаванд.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="lessons" class="section light-section">
+        <div class="container">
+          <div class="section-title">
+            <span>Дарсҳо</span>
+            <h2>Қисмҳои асосии омӯзиш</h2>
+            <p>
+              Омӯзиш аз мавзӯъҳои асосӣ оғоз шуда, тадриҷан ба грамматика ва муоширати рӯзмарра мегузарад.
+            </p>
+          </div>
+
+          <div class="cards-grid">
+            <div class="lesson-card">
+              <div class="lesson-number">01</div>
+              <h3>Алифбои русӣ</h3>
+              <p>Омӯзиши ҳарфҳо, овозҳо ва тарзи дурусти талаффуз.</p>
+              <a href="#">Дидан</a>
+            </div>
+
+            <div class="lesson-card">
+              <div class="lesson-number">02</div>
+              <h3>Калимаҳои рӯзмарра</h3>
+              <p>Калимаҳои муҳим барои салом, шиносоӣ, оила ва таҳсил.</p>
+              <a href="#">Дидан</a>
+            </div>
+
+            <div class="lesson-card">
+              <div class="lesson-number">03</div>
+              <h3>Грамматикаи аввалия</h3>
+              <p>Ҷинс, шумора, исм, феъл ва ҷумлаҳои содда.</p>
+              <a href="#">Дидан</a>
+            </div>
+
+            <div class="lesson-card">
+              <div class="lesson-number">04</div>
+              <h3>Муоширати амалӣ</h3>
+              <p>Ибораҳо барои донишгоҳ, кӯча, мағоза ва суҳбатҳои оддӣ.</p>
+              <a href="#">Дидан</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="levels" class="section">
+        <div class="container">
+          <div class="section-title">
+            <span>Сатҳҳо</span>
+            <h2>Барномаи омӯзишӣ аз рӯйи сатҳ</h2>
+          </div>
+
+          <div class="level-grid">
+            <div class="level-card">
+              <h3>Сатҳи A1</h3>
+              <p>Барои навомӯзон: алифбо, калимаҳои аввалин, ҷумлаҳои кӯтоҳ.</p>
+              <button>Оғоз кардан</button>
+            </div>
+
+            <div class="level-card active">
+              <h3>Сатҳи A2</h3>
+              <p>Муоширати оддӣ, грамматикаи асосӣ ва фаҳмидани матнҳои кӯтоҳ.</p>
+              <button>Омӯхтан</button>
+            </div>
+
+            <div class="level-card">
+              <h3>Сатҳи B1</h3>
+              <p>Суҳбати мустақил, навиштани матн ва фаҳмидани мавзӯъҳои васеъ.</p>
+              <button>Дидан</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-box">
+          <div class="contact-info">
+            <span>Тамос</span>
+            <h2>Бо мо дар тамос шавед</h2>
+            <p>
+              Барои пешниҳод, савол ё ҳамкорӣ метавонед тавассути почтаи электронӣ муроҷиат кунед.
+            </p>
+            <a href="mailto:info@example.com">info@example.com</a>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Номи шумо" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Паёми шумо" required></textarea>
+            <button type="submit">Фиристодан</button>
+          </form>
+        </div>
       </section>
     </main>
-    <footer>
-      <p>Ҳуқуқи муаллиф © 2025</p>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© 2026 Омӯзиши забони русӣ. Ҳамаи ҳуқуқҳо ҳифз шудаанд.</p>
+        <p>Бо мақсади рушди дониш ва забономӯзӣ</p>
+      </div>
     </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>
